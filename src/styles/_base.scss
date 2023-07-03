@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap");
+
+// COLORS
+$color-primary: #008dd2;
+$color-primary-dark: #2184b6;
+$color-primary-light: #1798d9;
+
+// $color-secondary: #070b16;
+// $color-secondary-dark: #020304;
+// $color-secondary-light: #2d364f;
+
+$color-grey-light: #eeeeee;
+$color-grey-dark: #767676;
+
+$color-black: #111;
+$color-white: #fcfcfc;
+
+$box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+$box-shadow-1: 0 2rem 5rem rgba(#000, 0.5);
+
+// FONTS
+$font-primary: "Work Sans", sans-serif;
+
+// MEDIA QUERIES
+$bp-largest: 70.25em;
+$bp-large: 56.25em;
+$bp-medium: 52em;
+$bp-medium-small: 36.875em;
+$bp-small: 30.625em;

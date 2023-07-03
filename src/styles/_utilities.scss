@@ -1,0 +1,63 @@
+.margin-bottom-smallest {
+  margin-bottom: 0.7rem;
+}
+
+.margin-bottom-small {
+  margin-bottom: 1.65rem;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.margin-bottom-big {
+  margin-bottom: 6rem;
+}
+
+.margin-bottom-bigest {
+  margin-bottom: 9rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.small {
+  text-transform: none;
+}
+
+.current {
+  color: $color-primary;
+  transition: color 0.3s;
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 2rem 0 2rem;
+
+  @media only screen and (max-width: $bp-large) {
+    max-width: 120rem;
+  }
+}
+
+.white {
+  color: $color-white !important;
+}
+
+.primary {
+  color: $color-primary;
+  text-transform: capitalize;
+}
+
+.margin-right {
+  margin-right: 2rem;
+}
+
+.margin-top-small {
+  margin-top: 1rem;
+}
+
+.margin-top-medium {
+  margin-top: 2.5rem;
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 60.5%;
+  }
+}
+
+body {
+  font-family: $font-primary;
+  background-color: $color-grey-light;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 9rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 7rem 0;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
