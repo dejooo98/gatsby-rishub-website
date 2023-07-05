@@ -3,8 +3,10 @@ import { Link } from "gatsby"
 
 export const SingleNavbarItem = ({ link }) => {
   return (
-    <li>
-      <Link to={link.path}>{link.text}</Link>
+    <li className="navbar__item">
+      <Link className="navbar__link" to={link.path}>
+        {link.text}
+      </Link>
     </li>
   )
 }

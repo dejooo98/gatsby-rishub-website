@@ -1,0 +1,45 @@
+.hero {
+  height: 82vh;
+
+  &__container {
+    display: flex;
+
+    &--text-box {
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+    }
+
+    &--image-box {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  &__counter {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+    &--box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &--box-number {
+      font-size: 4rem;
+      font-weight: 700;
+      color: $color-grey-dark-1;
+      margin-bottom: 0.6rem;
+    }
+
+    &--box-text {
+      font-size: 1.4rem;
+      color: $color-primary-dark;
+      font-weight: 600;
+    }
+  }
+}

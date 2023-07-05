@@ -1,9 +1,8 @@
 .heading-1 {
-  color: $color-white;
-  font-weight: 600;
-  text-transform: capitalize;
+  color: $color-grey-dark-1;
+  font-weight: 700;
   line-height: 1.2;
-  font-size: 6rem;
+  font-size: 5.5rem;
   letter-spacing: 0.2rem;
   width: 100%;
 
@@ -43,25 +42,23 @@
   }
 }
 
+.heading-4 {
+  color: $color-primary-light;
+  font-size: 1.8rem;
+}
+
 .white-text {
   color: $color-white;
 }
 
-.text {
-  color: #fff;
-  font-family: $font-primary;
-  font-size: 1.5rem;
-  font-style: italic;
-  letter-spacing: 0.1rem;
-}
-
 .big-text {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: $color-grey-dark;
   line-height: 1.4;
   letter-spacing: 0.1rem;
   text-align: left;
   font-weight: 500;
+  width: 80%;
 }
 
 .long-text {

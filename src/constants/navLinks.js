@@ -1,15 +1,19 @@
 const navLinks = [
   {
-    path: "services",
-    text: "services",
+    path: "/",
+    text: "početna",
   },
   {
-    path: "news",
-    text: "news",
+    path: "vesti",
+    text: "vesti",
   },
   {
-    path: "contact",
-    text: "contact",
+    path: "dogadjaji",
+    text: "događaji",
+  },
+  {
+    path: "kontakt",
+    text: "kontakt",
   },
 ]
 
