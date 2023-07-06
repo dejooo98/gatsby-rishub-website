@@ -1,11 +1,11 @@
 const features = [
   {
     icon: "1",
-    text: "internet",
+    text: "neogranicen internet",
   },
   {
     icon: "2",
-    text: "parking",
+    text: "parking za stanare",
   },
   {
     icon: "3",
@@ -17,19 +17,19 @@ const features = [
   },
   {
     icon: "5",
-    text: "sala za prezentaijce",
+    text: "kanclearija za sastanke",
   },
   {
     icon: "6",
-    text: "sala za prezentaijce",
+    text: "kuhinja",
   },
   {
     icon: "7",
-    text: "sala za prezentaijce",
+    text: "prostor za odmor",
   },
   {
     icon: "8",
-    text: "sala za prezentaijce",
+    text: "kursevi i radionice",
   },
 ]
 

@@ -1,0 +1,17 @@
+.about {
+  &__container {
+    gap: 4rem;
+    &--img-box {
+      img {
+        max-width: 100%;
+      }
+    }
+
+    &--text-box {
+      width: 75%;
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

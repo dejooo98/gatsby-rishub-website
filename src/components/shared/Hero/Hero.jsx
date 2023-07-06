@@ -14,7 +14,7 @@ export const Hero = () => {
               RisHub, prostor gde se
               <br />
               <span class="primary">inspiracija</span>,
-              <span class="primary">produktivnost</span> i
+              <span class="primary"> produktivnost</span> i
               <span class="primary"> zajednica </span>
               sjedinjuju.
             </h1>
@@ -26,7 +26,7 @@ export const Hero = () => {
               zadovolji sve vaše potrebe.
             </p>
             <Link className="button" to="/o-nama">
-              Više O RisHabu
+              Kontaktiraj nas
             </Link>
             <div className="hero__counter">
               {factNumbers.map((count, index) => {

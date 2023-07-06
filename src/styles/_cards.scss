@@ -1,0 +1,55 @@
+.news-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  width: 370px;
+  height: 100%;
+  background: $color-white;
+  position: relative;
+  box-shadow: $box-shadow;
+
+  &__content {
+    padding: 2rem 0.5rem;
+  }
+
+  &__image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 2rem;
+    background: $color-primary-dark;
+  }
+
+  &__title {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: $color-grey-dark-1;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: $color-grey-dark;
+    margin-bottom: 3rem;
+  }
+
+  &__date {
+    font-size: 1.3rem;
+    font-weight: 400;
+    background: $color-primary;
+    color: $color-white;
+    padding: 0.5rem;
+    position: absolute;
+    border-radius: 0.3rem;
+    top: 5%;
+    right: 5%;
+  }
+
+  &__button {
+    position: absolute;
+    bottom: 1.5%;
+  }
+}
