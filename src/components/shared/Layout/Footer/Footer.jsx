@@ -46,21 +46,21 @@ export const Footer = () => {
           <h3>Follow Us</h3>
           <div className="social-icons">
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/rishubue/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram className="social-icon instagram" />
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/rishubue/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebook className="social-icon facebook" />
             </a>
             <a
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/channel/UCuwTCTFX2QZvThzvNQELzAg/"
               target="_blank"
               rel="noopener noreferrer"
             >
